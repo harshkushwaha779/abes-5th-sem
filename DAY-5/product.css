@@ -1,0 +1,33 @@
+#products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+#products-container > div {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#products-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+#products-container h1 {
+    font-size: 24px;
+}
+
+#products-container h2 {
+    font-size: 20px;
+}
+
+#products-container button {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
